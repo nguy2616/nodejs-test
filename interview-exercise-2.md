@@ -104,3 +104,49 @@ Spiderman in Cannes
 ```
 
 Sort the array in ascending order, and return it as the answer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- select * from customers left join transactions on customers.id = transactions.id where customers.name = 'Fabien'; -->
+
+
+<!-- select c.name as customer_name, sum(t.amount) as total_spent
+from customers c left join transactions t on c.id = t.id 
+group by c.name; -->
+
+<!-- select c.name as customer_name, sum(t.amount) as total_spent
+from customers c left join transactions t on c.id = t.id 
+group by c.name
+order by total_spent DESC 
+limit 1; -->
+
+<!-- select c.name as customer_name, sum(t.amount) as total_spent
+from customers c left join transactions t on c.id = t.id 
+group by c.name
+HAVING SUM(t.amount) > 200; -->
